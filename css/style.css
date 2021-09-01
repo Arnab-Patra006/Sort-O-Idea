@@ -1,9 +1,4 @@
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/
+
 * {
   margin: 0px;
   padding: 0px;
@@ -14,7 +9,7 @@
 }
 
 nav {
-  background-color: #3b3a3a;
+  background-image: linear-gradient(to top,black, blue);
   color: white;
   display: -ms-grid;
   display: grid;
@@ -26,6 +21,7 @@ nav {
 }
 
 nav .array-inputs {
+  /* color: rgb(219, 128, 9); */
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 60% 40%;
@@ -35,6 +31,7 @@ nav .array-inputs {
 }
 
 nav .array-inputs #a_size {
+  /* color: rgb(219, 128, 9); */
   padding: 5% 0%;
 }
 
@@ -53,6 +50,7 @@ nav .array-inputs #a_generate {
 
 nav .array-inputs #a_generate:hover {
   cursor: pointer;
+  color: red;
 }
 
 nav .header_right {
@@ -74,23 +72,25 @@ nav .header_right .nav-heading {
 nav .header_right .algos {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (16.66667%)[6];
+  -ms-grid-columns: (16.66667%)(6);
       grid-template-columns: repeat(6, 16.66667%);
   place-content: center;
   padding: 2% 0%;
 }
 
 nav .header_right .algos button {
+  margin: 10px;
   background-color: transparent;
   border: none;
   color: white;
   outline: none;
-  padding: 5% 0%;
+  /* padding: 5% 0%; */
   font-size: x-large;
 }
 
 nav .header_right .algos button:hover {
-  background-color: blue;
+  /* background-color: white; */
+  color: red;
   cursor: pointer;
 }
 
@@ -115,12 +115,13 @@ nav .header_right .algos .butt_selected:hover {
 }
 
 nav .header_right .algos .butt_unselected:hover {
-  background-color: blue;
+  background-color: transparent;
   cursor: pointer;
 }
 
 section {
   display: -ms-grid;
+  background-image: linear-gradient(to bottom,black, rgb(28, 35, 105));
   display: grid;
   -ms-grid-columns: 20% 60% 20%;
       grid-template-columns: 20% 60% 20%;
@@ -162,10 +163,5 @@ section #Info_Cont2 {
 
 }
 */
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/
+ 
 /*# sourceMappingURL=style.css.map */

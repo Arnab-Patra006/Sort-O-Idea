@@ -1,9 +1,4 @@
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/
+
 
 function Bubble()
 {
@@ -27,7 +22,7 @@ function Bubble()
                 div_update(divs[j],div_sizes[j], "red");//Height update
                 div_update(divs[j+1],div_sizes[j+1], "red");//Height update
             }
-            div_update(divs[j],div_sizes[j], "blue");//Color updat
+            div_update(divs[j],div_sizes[j], "yellow");//Color updat
         }
         div_update(divs[j],div_sizes[j], "green");//Color update
     }
@@ -36,9 +31,3 @@ function Bubble()
     enable_buttons();
 }
 
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/

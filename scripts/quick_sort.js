@@ -1,9 +1,4 @@
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/
+ 
 
 function Quick()
 {
@@ -37,8 +32,8 @@ function quick_partition (start, end)
                 div_update(divs[i],div_sizes[i],"red");//Height update
                 div_update(divs[j],div_sizes[j],"red");//Height update
 
-                div_update(divs[i],div_sizes[i],"blue");//Height update
-                div_update(divs[j],div_sizes[j],"blue");//Height update
+                div_update(divs[i],div_sizes[i],"yellow");//Height update
+                div_update(divs[j],div_sizes[j],"yellow");//Height update
 
                 i += 1;
             }
@@ -72,9 +67,4 @@ function quick_sort (start, end )
     }
  }
 
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/
+ 
